@@ -8,7 +8,7 @@ We can store any types of file like images, pdf, ppt, word file etc in S3 bucket
   - Add below aws sdk dependency
     ```
       <dependency>
-  			<groupId>com.amazonaws</groupId>
+  		  <groupId>com.amazonaws</groupId>
   			<artifactId>aws-java-sdk-s3</artifactId>
   			<version>1.12.720</version>
   		</dependency>
@@ -22,3 +22,7 @@ We can store any types of file like images, pdf, ppt, word file etc in S3 bucket
       </dependency>
 
     ```
+  - Create Config class & create AmazonS3 bean.
+  - Create Service class.
+  - Create Controller.
+  - Create yaml file and add s3 bucket credentials.
