@@ -31,4 +31,9 @@ public class StorageController {
                .header("Content-disposition", "attachment; fileName=\"" + filName + "\"")
                .body(resource);
     }
+
+    @DeleteMapping("/delete/{fileName}")
+    public ResponseEntity<String> deleteFile(@PathVariable String fileName){
+        return new ResponseEntity<>(service.deleteFile(fileName), HttpStatus.OK);
+    }
 }
