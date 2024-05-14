@@ -8,17 +8,18 @@ We can store any types of file like images, pdf, ppt, word file etc in S3 bucket
   - Add below aws sdk dependency
     ```
       <dependency>
-  		  <groupId>com.amazonaws</groupId>
-  			<artifactId>aws-java-sdk-s3</artifactId>
-  			<version>1.12.720</version>
-  		</dependency>
+          <groupId>com.amazonaws</groupId>
+          <artifactId>aws-java-sdk-s3</artifactId>
+          <version>1.12.720</version>
+      </dependency>
+
     ```
   - You can add below dependency instead of above :
     ```
       <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-aws</artifactId>
-        <version>2.2.6.RELEASE</version>
+          <groupId>org.springframework.cloud</groupId>
+          <artifactId>spring-cloud-starter-aws</artifactId>
+          <version>2.2.6.RELEASE</version>
       </dependency>
 
     ```
